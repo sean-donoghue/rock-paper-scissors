@@ -3,7 +3,36 @@
 
 <head>
     <meta charset="utf-8">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Rock Paper Scissors</title>
 </head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="status">
+        <div class="scores">
+            <h2>You: <span class="player-score">0</span></h2>
+            <h2>CPU: <span class="computer-score">0</span></h2>
+        </div>
+        <p class="result"></p>
+    </div>
+
+    <div class="rules">
+        <ul>
+            <li>First to 5 points wins</li>
+            <li>Choose from the options below to play</li>
+            <li>Click the Reset button to start over</li>
+        </ul>
+        <button class="reset">Reset</button>
+    </div>
+
+    <div class="choices">
+        <button class="choice-btn" id="rock">Rock ✊</button>
+        <button class="choice-btn" id="paper">Paper 🖐️</button>
+        <button class="choice-btn" id="scissors">Scissors ✌️</button>
+    </div>
+</body>
 
 </html>

@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+}
+
+body,
+button {
+  background-color: #282828;
+  color: #ffffff;
+  padding: 16px;
+}
+
+body,
+h2 {
+  margin: 0 auto;
+}
+
+button {
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  font-size: 16px;
+  width: 25%;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #282828;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.choices,
+.rules,
+.scores,
+.status {
+  display: flex;
+}
+
+.choices,
+.rules,
+.status {
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.rules,
+.status {
+  border: 2px dotted #ffffff;
+  border-radius: 16px;
+}
+
+.status {
+  flex-direction: column;
+}
+
+.scores {
+  justify-content: space-around;
+}
